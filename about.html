@@ -31,10 +31,23 @@
         height: 15%;
         padding: 6%;
     }
+    img{
+      width: 10%;
+    }
     .button{
-      position: fixed;
+      position: relative;
       bottom: 10%;
       left: 75%;
+    }
+    @media screen and (max-width: 600px) {
+      img{
+        width: 25%;
+      }
+      .button{
+        position: relative;
+        bottom: 30%;
+        left: 70%;
+      }
     }
     </style>
   </head>
@@ -47,7 +60,7 @@
         <p>这些故事往往脑洞大开，非常奇怪，所以需要读者用一定的耐心与爱心去接受它们，但是绝对逻辑森严，妙趣横生</p>
       </div>
       <div class="button">
-        <a href="index.html"><img src="back.png" style="width:25%;"></a>
+        <a href="index.html"><img src="back.png" style="width:10%;"></a>
       </div>
 
   </body>
